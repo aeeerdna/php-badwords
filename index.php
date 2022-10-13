@@ -18,6 +18,9 @@
 
     // censored paragraph
     $censoredParagraph = str_replace($badWord, '***', $paragraph);
+
+    // censored paragraph length
+    $censoredParagraphLength = strlen($censoredParagraph);
 ?>
 
 
@@ -31,5 +34,19 @@
     <!-- paragraph length -->
     <p>
         PARAGRAPH LENGTH: <?= $paragraphLength ?>
+    </p>
+</div>
+
+
+<!-- censored paragraph -->
+<div>
+    <!-- censored paragraph -->
+    <p>
+        CENSORED PARAGRAPH: <?= $censoredParagraph ?>
+    </p>
+
+    <!-- censored paragraph length -->
+    <p>
+        CENSORED PARAGRAPH LENGTH: <?= $censoredParagraphLength ?>
     </p>
 </div>

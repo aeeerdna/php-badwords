@@ -10,3 +10,9 @@
     $paragraph = "Growing up in the Netherlands, with its network of pathways, its flat landscape and its bicycle-friendly traffic laws, the brothers Ties and Taco Carlier were commuting with their parents on bikes by age 4.";
 
 ?>
+
+<div>
+    <p>
+        PARAGRAPH: <?= $paragraph ?>
+    </p>
+</div>

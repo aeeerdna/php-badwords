@@ -16,4 +16,8 @@
     <p>
         PARAGRAPH: <?= $paragraph ?>
     </p>
+
+    <p>
+        PARAGRAPH LENGTH: <?= $paragraphLength ?>
+    </p>
 </div>

@@ -12,6 +12,8 @@
     $paragraphLength = strlen($paragraph);
 
     $badWord = $_GET ['badWord'];
+
+    $censoredParagraph = str_replace($badWord, '***', $paragraph);
 ?>
 
 <div>
